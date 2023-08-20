@@ -87,8 +87,9 @@ function BaseApparel() {
               required
             />
             <button
-              onClick={handleSubcribe}
+              onClick={handleSubscribe}
               className="bg-gradient-to-r from-[#F8B2B2] to-[#F19598] px-7 py-[0.7em] rounded-full -ml-[3.7em] shadow-xl"
+              aria-label="Subscribe to updates"
             >
               <img src={InputArrow} alt="" />
             </button>
