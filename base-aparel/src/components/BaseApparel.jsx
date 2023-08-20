@@ -58,18 +58,18 @@ function BaseApparel() {
       {/* Text container*/}
       <div className="flex flex-col xl:py-20 xl:px-40 xl:bg-hero-pattern xl:bg-cover xl:bg-[#FFF9F9]">
         <div className="w-full p-8 xl:p-0">
-          <img className="w-28" src={Logo} alt="" />
+          <img className="w-28 xl:w-36" src={Logo} alt="" />
         </div>
         <img className="xl:hidden" src={ImgHeader} alt="" />
         <div className="flex flex-col w-full text-center xl:text-start gap-8">
           {/* Main section */}
           <main className="flex flex-col gap-5">
-            <h1 className="text-5xl xl:text-7xl tracking-[0.2em] font-semibold mt-16 xl:mt-36">
+            <h1 className="text-5xl xl:text-7xl tracking-[0.2em] font-semibold mt-16 xl:mt-36 text-[#463D3E]">
               <span className="text-[#C29C9D] font-thin">WE'RE</span> <br />
               COMING <br />
               SOON
             </h1>
-            <p className="text-center px-8 text-sm text-[#C29C9D] xl:text-start xl:p-0 xl:w-2/3 xl:text-base ">
+            <p className="text-center px-8 text-sm text-[#C29C9D] xl:text-start xl:p-1 xl:w-3/4 xl:text-base ">
               Hello fellow shoppers! We're currently building our new sashion
               store. Add your email below to stay up-to-date with annoucements
               and our launch deals.
@@ -79,7 +79,7 @@ function BaseApparel() {
           {/* Input section */}
           <section className="w-full flex flex-row items-center justify-center border-[#C29C9D] xl:justify-start xl:mt-4">
             <input
-              className="w-4/5 xl:w-2/3 px-6 py-2 rounded-full border border-[#E9DBDC] xl:bg-transparent focus:border-[#E06F6C] outline-none placeholder-[#E9D6D6]"
+              className="w-4/5 xl:w-3/4 px-6 py-2 rounded-full border border-[#E9DBDC] xl:bg-transparent focus:border-[#E06F6C] outline-none placeholder-[#E9D6D6]"
               type="email"
               placeholder="Email Address"
               value={email}
