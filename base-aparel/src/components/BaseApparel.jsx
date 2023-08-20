@@ -63,7 +63,7 @@ function BaseApparel() {
         <img className="xl:hidden" src={ImgHeader} alt="" />
         <div className="flex flex-col w-full text-center xl:text-start gap-8">
           {/* Main section */}
-          <main className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5">
             <h1 className="text-5xl xl:text-7xl tracking-[0.2em] font-semibold mt-16 xl:mt-36 text-[#463D3E]">
               <span className="text-[#C29C9D] font-thin">WE'RE</span> <br />
               COMING <br />
@@ -74,10 +74,10 @@ function BaseApparel() {
               store. Add your email below to stay up-to-date with annoucements
               and our launch deals.
             </p>
-          </main>
+          </div>
           {/* Main section */}
           {/* Input section */}
-          <section className="w-full flex flex-row items-center justify-center border-[#C29C9D] xl:justify-start xl:mt-4">
+          <div className="w-full flex flex-row items-center justify-center border-[#C29C9D] xl:justify-start xl:mt-4">
             <input
               className="w-4/5 xl:w-3/4 px-6 py-2 rounded-full border border-[#E9DBDC] xl:bg-transparent focus:border-[#E06F6C] outline-none placeholder-[#E9D6D6]"
               type="email"
@@ -92,7 +92,7 @@ function BaseApparel() {
             >
               <img src={InputArrow} alt="" />
             </button>
-          </section>
+          </div>
           {/* Input section */}
           {/* Messages After subscribing */}
           <div className="-mt-6 animate-pulse">
